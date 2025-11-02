@@ -1,6 +1,5 @@
 import random
 
-
 # words=["ironman","thor","hawkeye","wanda","vision"] Can take a list 
 
 # Can get words from a txt file.
@@ -41,6 +40,7 @@ else:
     print("All your chances are exhausted.")
     print("You lose.")
     print('The correct word is',word)
+
 
 
 
