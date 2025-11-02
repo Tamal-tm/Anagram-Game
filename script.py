@@ -2,6 +2,7 @@ import random
 
 # words=["ironman","thor","hawkeye","wanda","vision"] Can take a list 
 
+
 # Can get words from a txt file.
 f=open(r"C:\Users\catas\OneDrive\Desktop\VS Code Progs\Anagram Game\Dummy_words.txt")
 a=f.readline()
@@ -40,6 +41,7 @@ else:
     print("All your chances are exhausted.")
     print("You lose.")
     print('The correct word is',word)
+
 
 
 
