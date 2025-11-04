@@ -12,9 +12,6 @@ word=random.choice(words)
 # print(word)
 
 
-
-
-
 jumble="".join(random.sample(word,len(word))) # Adding elements in empty string using sample from word to its length. 
 # print(jumble)
 
@@ -44,6 +41,7 @@ else:
     print("All your chances are exhausted.")
     print("You lose.")
     print('The correct word is',word)
+
 
 
 
